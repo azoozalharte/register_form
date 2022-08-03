@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class="bg-lightYallow font-sans">
+    <div class="container mx-auto mt-20 shadow-2xl rounded-3xl">
+      <div
+        class="rounded-3xl bg-leafs bg-no-repeat bg-cover bg-center shadow-2xl"
+      >
+        <div
+          class="flex flex-col rounded-3xl bg-gradient-to-tr from-gray-900 to-gray-300/5 p-10 shadow-2xl"
+        >
+          <!-- navbar -->
+          <div class="flex gap-40 items-center mb-40">
+            <!-- logo -->
+            <div class="flex gap-4 items-center">
+              <span
+                class="animate-bounce h-10 w-10 bg-lightYallow rounded-full"
+              ></span>
+              <p class="text-2xl text-white font-bold">
+                Anywhere app<span class="text-lightYallow">.</span>
+              </p>
+            </div>
+            <a
+              href="#"
+              class="text-xl text-white font-bold hover:text-lightYallow transition-all duration-300"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="text-xl text-white font-bold hover:text-lightYallow transition-all duration-300"
+              >Join</a
+            >
+          </div>
+
+          <!-- Main part -->
+          <div class="flex flex-col px-16">
+            <p class="text-gray-400 text-lg font-semibold uppercase mb-2 ml-2">
+              start for free
+            </p>
+            <p class="text-5xl text-white font-bold">
+              Create new account<span class="text-lightYallow">.</span>
+            </p>
+
+            <!-- Already loging -->
+            <div class="flex gap-2 mt-7 ml-2">
+              <span class="text-gray-400 text-lg font-semibold"
+                >Already Member?</span
+              >
+              <a
+                href="#"
+                class="text-lightYallow hover:text-lightYallow/80 text-lg font-semibold"
+                >Log ing</a
+              >
+            </div>
+
+            <form action="#" class="flex flex-col mt-10 gap-5 w-1/2">
+              <div class="flex gap-3">
+                <!-- left input -->
+                <div class="relative w-full">
+                  <ion-icon
+                    name="id-card-outline"
+                    class="absolute top-4 right-3"
+                  ></ion-icon>
+                  <span class="absolute text-xs top-1 left-3">First name</span>
+                  <input
+                    type="text"
+                    class="w-full p-3 rounded-xl focus:outline-none focus:outline-lightYallow border-0 bg-gray-200 font-medium text-sm pt-5"
+                  />
+                </div>
+                <!-- Right input -->
+                <div class="relative w-full">
+                  <ion-icon
+                    name="id-card-outline"
+                    class="absolute top-4 right-3"
+                  ></ion-icon>
+                  <span class="absolute text-xs top-1 left-3">Last name</span>
+                  <input
+                    type="text"
+                    class="w-full p-3 rounded-xl focus:outline-none focus:outline-lightYallow border-0 bg-gray-200 font-medium text-sm pt-5"
+                  />
+                </div>
+              </div>
+              <!-- Email input -->
+              <div class="relative">
+                <ion-icon
+                  name="mail-outline"
+                  class="absolute top-4 right-3"
+                ></ion-icon>
+                <span class="absolute text-xs top-1 left-3">Email</span>
+                <input
+                  type="email"
+                  class="w-full p-3 rounded-xl focus:outline-none focus:outline-lightYallow border-0 bg-gray-200 font-medium text-sm pt-5"
+                />
+              </div>
+              <!-- Password input -->
+              <div class="relative">
+                <ion-icon
+                  name="eye-outline"
+                  class="absolute top-4 right-3"
+                ></ion-icon>
+                <span class="absolute text-xs top-1 left-3">Password</span>
+                <input
+                  type="password"
+                  class="w-full p-3 rounded-xl focus:outline-none focus:outline-lightYallow border-0 bg-gray-200 font-medium text-sm pt-5"
+                />
+              </div>
+
+              <div class="flex mt-10 gap-5">
+                <button
+                  class="w-full border-2 border-lightYallow hover:bg-lightYallow/80 hover:border-lightYallow/80 py-5 px-10 rounded-full text-white text-lg font-semibold transition-all duration-500"
+                >
+                  Change method
+                </button>
+                <button
+                  class="w-full bg-lightYallow hover:bg-lightYallow/80 py-5 px-10 rounded-full text-white text-lg font-semibold transition-all duration-500"
+                >
+                  Change method
+                </button>
+              </div>
+            </form>
+            <!-- END MAIN PART -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
